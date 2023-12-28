@@ -11,8 +11,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
+
     steps:
       - uses: actions/checkout@main
 
